@@ -1,0 +1,432 @@
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+4
+----------------- Adding Player is in Progress ----------------
+
+Enter the name of the player : arjuna
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index where you want player: arjuna to be placed: 1
+
+Enter the maxItems count for : 3
+Player added successfully
+
+----------------- End Adding Player ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+4
+----------------- Adding Player is in Progress ----------------
+
+Enter the name of the player : bheema
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index where you want player: bheema to be placed: 2
+
+Enter the maxItems count for : 3
+Player added successfully
+
+----------------- End Adding Player ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+4
+----------------- Adding Player is in Progress ----------------
+
+Enter the name of the player : yudistira
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index where you want player: yudistira to be placed: 3
+
+Enter the maxItems count for : 3
+Player added successfully
+
+----------------- End Adding Player ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+6
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 0, Space name: Arjuna
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player arjuna's turn
+1
+----------------- Moving Player is in Progress ----------------
+Currently player: arjuna is standing at Arjuna.
+Available neighbor space you can move player to:
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+Q => Quit
+
+Enter the space index you want the player to move to for : 2
+DFS Pet Movement: Pet is moved successfully from 0 - Arjuna to 3 - Nakula
+
+Player Moved Successfully
+
+----------------- End Move Player Operation ----------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 1, Space name: Bheema
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player bheema's turn
+2
+----------------- Picking weapon in progress ------------------------
+Available weapons in the space:
+1 => Anger
+Q => Quit
+
+Enter the weapon index that you want to pick: 1
+DFS Pet Movement: Pet is moved successfully from 3 - Nakula to 2 - Yudistira
+
+Weapon is picked successfully!!!!
+
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 2, Space name: Yudistira
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player yudistira's turn
+3
+----------------- LookAround Command in Progress ----------------------
+DFS Pet Movement: Pet is moved successfully from 2 - Yudistira to 0 - Arjuna
+
+Space Info
+Name of the Space: Yudistira
+Id of the Space: 2
+No neighbors for this space.
+Weapons: Delusion
+Player: yudistira
+Pet: Ashva
+Details on neighbor spaces of player are:
+----------------------------
+Space Info
+Name of the Space: Arjuna
+Id of the Space: 0
+No neighbors for this space.
+Weapons: Desire, Arrogance
+No players in this space.
+----------------------------
+Space Info
+Name of the Space: Bheema
+Id of the Space: 1
+No neighbors for this space.
+No weapons on this space.
+Player: bheema, arjuna
+----------------------------
+Space Info
+Name of the Space: Nakula
+Id of the Space: 3
+No neighbors for this space.
+Weapons: Greed
+No players in this space.
+----------------------------
+
+
+----------------- End LookAround Command -----------------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 3, Space name: Nakula
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player arjuna's turn
+2
+----------------- Picking weapon in progress ------------------------
+No weapons available to pick in this space.---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 3, Space name: Nakula
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player arjuna's turn
+6
+----------------- Display Player Info is in Progress ----------------
+Player Info:
+Name: arjuna
+Not carrying any weapons.
+MaxWeapons: 3
+Space Info
+Name of the Space: Bheema
+Id of the Space: 1
+Neighbors: Arjuna, Yudistira
+No weapons on this space.
+Player: bheema, arjuna
+
+----------------- End Player Info ------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 3, Space name: Nakula
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player arjuna's turn
+3
+----------------- LookAround Command in Progress ----------------------
+DFS Pet Movement: Pet is moved successfully from 0 - Arjuna to 2 - Yudistira
+
+Space Info
+Name of the Space: Bheema
+Id of the Space: 1
+No neighbors for this space.
+No weapons on this space.
+Player: bheema, arjuna
+Details on neighbor spaces of player are:
+----------------------------
+Space Info
+Name of the Space: Yudistira
+Id of the Space: 2
+No neighbors for this space.
+Weapons: Delusion
+Player: yudistira
+----------------------------
+
+
+----------------- End LookAround Command -----------------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 4, Space name: Sahadeva
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player bheema's turn
+4
+----------------- Moving Pet Command in Progress ----------------------
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index where you want pet to be placed: 1
+Pet is moved successfully from 2 - Yudistira to 0 - Arjuna
+----------------- End Moving Pet Command ----------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 0, Space name: Arjuna
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player yudistira's turn
+3
+----------------- LookAround Command in Progress ----------------------
+DFS Pet Movement: Pet is moved successfully from 0 - Arjuna to 3 - Nakula
+
+Space Info
+Name of the Space: Yudistira
+Id of the Space: 2
+No neighbors for this space.
+Weapons: Delusion
+Player: yudistira
+Details on neighbor spaces of player are:
+----------------------------
+Space Info
+Name of the Space: Bheema
+Id of the Space: 1
+No neighbors for this space.
+No weapons on this space.
+Player: bheema, arjuna
+----------------------------
+Space Info
+Name of the Space: Nakula
+Id of the Space: 3
+No neighbors for this space.
+Weapons: Greed
+No players in this space.
+----------------------------
+
+
+----------------- End LookAround Command -----------------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 1, Space name: Bheema
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player arjuna's turn
+4
+----------------- Moving Pet Command in Progress ----------------------
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index where you want pet to be placed: 3
+Pet is moved successfully from 0 - Arjuna to 2 - Yudistira
+----------------- End Moving Pet Command ----------------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 2, Space name: Yudistira
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player bheema's turn
+1
+----------------- Moving Player is in Progress ----------------
+Currently player: bheema is standing at Bheema.
+Available neighbor space you can move player to:
+1 => Arjuna
+3 => Yudistira
+Q => Quit
+
+Enter the space index you want the player to move to for : 1
+DFS Pet Movement: Pet is moved successfully from 2 - Yudistira to 3 - Nakula
+
+Player Moved Successfully
+
+----------------- End Move Player Operation ----------------
+---------------------------------------------------------------
+Target Info
+Name: Duryodhana
+Space Id: 3, Space name: Nakula
+Health: 6
+---------------------------------------------------------------
+Available playing commands are:
+1 => Move Player
+2 => Pick Weapon
+3 => Look Around
+4 => Move Pet
+5 => Attack Target
+6 => Display Player Info (will not count as turn)
+Q => Quit
+Enter command for Player yudistira's turn
+q
+Quit!!! Running Game
+PostGame: Available commands are:
+1 => Display Space Info
+2 => Display World Info
+Q => Quit
+q
+Quit!!! Ending Game
+
+Process finished with exit code 0

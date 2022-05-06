@@ -1,0 +1,106 @@
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+1
+----------------- Loading World Information ----------------
+Info about the Game World:
+Name: Kurukshetra
+Target name: Duryodhana
+Target location: 0).Arjuna
+Total Number of spaces: 5
+Total Number of weapons: 6
+Total Number of players: 0
+
+
+----------------- End World Information -----------------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+2
+----------------- Loading Spaces Information ----------------
+Available spaces:
+1 => Arjuna
+2 => Bheema
+3 => Yudistira
+4 => Nakula
+5 => Sahadeva
+Q => Quit
+
+Enter the space index you want the description for : 1
+Space Info
+Name of the Space: Arjuna
+Id of the Space: 0
+Neighbors: Bheema, Yudistira, Nakula
+Weapons: Desire, Arrogance
+No players in this space.
+
+
+----------------- End Space Information ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+5
+----------------- Adding Computer Player in Progress ----------------
+Computer player is added successfully----------------- End Adding Computer Player ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+5
+----------------- Adding Computer Player in Progress ----------------
+Computer player is added successfully----------------- End Adding Computer Player ----------------
+GameSetup: Available commands are:
+1 => Display GameWorld Info
+2 => Display Space Info
+3 => Create GameWorld GUI
+4 => Add Player
+5 => Add Computer Player
+6 => Start Game
+Q => Quit
+6
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Move Pet
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Computer player attacked target
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-657 Turn, which is automatically performed.Computer player performed: Computer player attacked target
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Pet
+It's computer-797 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-657 Turn, which is automatically performed.Computer player performed: Move Player
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-797 Turn, which is automatically performed.Computer player performed: Pick Item
+It's computer-797 Turn, which is automatically performed.Computer player performed: Computer player attacked target
+Game winner is: computer-797, type: COMP
+PostGame: Available commands are:
+1 => Display Space Info
+2 => Display World Info
+Q => Quit
+q
+Quit!!! Ending Game
